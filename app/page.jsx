@@ -14,7 +14,7 @@ export default function Home() {
         Mobile App Development Tailored For Your Unique Business Goals
       </div>
       {/* card portion start */}
-      <div className="grid  sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-24">
+      <div className="grid  sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 lg:p-24 p-12">
         <Card
           carddesc="Full cycle product development bringing innovative ideas to life."
           cardtext="Fully Custom Mobile Apps"
