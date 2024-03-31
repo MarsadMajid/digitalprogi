@@ -7,9 +7,9 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="items-center w-full text-center flex">
-      <Headder />
-      <Company />
+    <main className="items-center w-full">
+      <Headder  />
+      <Company className="text-center items-center justify-center"/>
       <div className="text-center mt-4 mb-4 text-4xl font-bold">
         Mobile App Development Tailored For Your Unique Business Goals
       </div>
@@ -62,7 +62,7 @@ export default function Home() {
         />
       </div>
       {/* card portion end */}
-      <div className="mt-12">
+      <div className="mt-12 text-center">
         <Button buttonText="learn more" />
       </div>
       {/* TURNKEY APP DEVELOPMENT start */}
@@ -122,7 +122,7 @@ export default function Home() {
         <Card2 />
         <Card2 />
       </div>
-      <div className="mt-12">
+      <div className="mt-12 text-center">
         <Button buttonText="learn more" />
       </div>
       {/* cards2 end */}
