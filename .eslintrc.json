@@ -1,7 +1,10 @@
 {
-  "extends": "next/core-web-vitals",
+  "ignorePatterns": [
+    "node_modules/",
+    "build/",
+    "coverage/"
+  ],
   "rules": {
-    "react/no-unescaped-entities": "off",
-    "@next/next/no-page-custom-font": "off"
+    // Your other ESLint rules here
   }
 }
