@@ -7,7 +7,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="items-center w-full">
+    <main className="items-center w-full text-center flex">
       <Headder />
       <Company />
       <div className="text-center mt-4 mb-4 text-4xl font-bold">
