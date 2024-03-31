@@ -2,7 +2,7 @@ import React from 'react'
 
 const Card = ({cardimg,cardtext,carddesc}) => {
   return (
-<div className="rounded overflow-hidden shadow-lg bg-white">
+<div className="rounded overflow-hidden shadow-lg bg-white dark:bg-black dark:text-white">
       <img className="w-full" src={cardimg} alt="" />
       <div className="px-6 py-4">
         <p className="bg-blue-600 text-white text-center font-bold py-2 rounded">{cardtext}</p>
