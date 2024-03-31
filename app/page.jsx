@@ -7,7 +7,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between">
+    <main className="flex min-h-screen flex-col items-center">
       <Headder />
       <Company />
       <div className="text-center mt-4 mb-4 text-4xl font-bold">
