@@ -4,10 +4,10 @@ import Button from "./Button";
 const Headder = () => {
   return (
     <>
-      <div className="flex flex-col lg:flex-row lg:gap-8 w-4/5 p-24">
+      <div className="flex flex-col lg:flex-row lg:gap-8  lg:w-4/5 p-24 w-full">
         <div className="lg:w-1/2">
           <div className="mb-6">
-            <p className="text-5xl font-bold mb-10">
+            <p className="lg:text-5xl font-bold mb-10 text-xl">
               Do You Have An Idea or Need a Solution?
             </p>
             <p className="text-3xl text-blue-400">Trust the experts!</p>
