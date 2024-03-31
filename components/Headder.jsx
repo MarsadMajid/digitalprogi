@@ -4,7 +4,7 @@ import Button from "./Button";
 const Headder = () => {
   return (
     <>
-      <div className="flex flex-col lg:flex-row lg:gap-8 lg:w-4/5 lg:p-24 p-3  w-full">
+      <div className="flex flex-col lg:flex-row lg:gap-8 lg:w-4/5 lg:ml-[180px] p-3 lg:p-12 w-full ">
         <div className="lg:w-1/2">
           <div className="mb-6">
             <p className="lg:text-5xl font-bold mb-10 text-3xl">
