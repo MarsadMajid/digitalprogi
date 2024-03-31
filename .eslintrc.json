@@ -1,10 +1,7 @@
 {
-  "ignorePatterns": [
-    "node_modules/",
-    "build/",
-    "coverage/"
-  ],
+  "extends": ["next", "prettier"],
   "rules": {
-    // Your other ESLint rules here
+    "react/no-unescaped-entities": "off",
+    "@next/next/no-page-custom-font": "off"
   }
 }
